@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kayeda</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="common/footerCss.css">
+        <link rel="stylesheet" href="common/headerCss.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            $(function(){
+                $('#header').load('common/header.html');
+            });
+            $(function(){
+                $('#footer').load('common/footer.html');
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="header"></div>
+        </header>
+
+        <div class="banner-wrapper">
+            <div class="img-background">
+                <img src="images/Falling of Stars.png" alt="background">
+                
+            <div class="wrapper">
+                <div class="site-tagline">
+                    <h1>Kayeda</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo ut, sit laboriosam omnis reiciendis dolores harum quo, molestias deserunt velit optio! Sit excepturi quam omnis suscipit? Quidem, recusandae animi.</p>
+                </div>
+                <div class="sign-up">
+                    <h1>Sign-up Now</h1>
+                    <div>
+                        <input type="email" placeholder="enter email">
+                        <button>Sign up Now</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
